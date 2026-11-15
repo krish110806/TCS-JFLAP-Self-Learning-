@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>100.0</x>
+			<y>180.0</y>
+			<label>Start State</label>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>260.0</x>
+			<y>120.0</y>
+			<label>Starts with 0, ends with 0</label>
+		</state>
+		<state id="2" name="q2">
+			<x>420.0</x>
+			<y>120.0</y>
+			<label>Starts with 0, ends with 1 (Accepting)</label>
+			<final/>
+		</state>
+		<state id="3" name="q3">
+			<x>260.0</x>
+			<y>260.0</y>
+			<label>Dead State (Starts with 1)</label>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>3</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>1</read>
+		</transition>
+	</automaton>
+</structure>

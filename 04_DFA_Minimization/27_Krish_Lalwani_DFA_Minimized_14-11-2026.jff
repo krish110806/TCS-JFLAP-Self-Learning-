@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="[q0]">
+			<x>120.0</x>
+			<y>180.0</y>
+			<label>Suffix is not 0</label>
+			<initial/>
+		</state>
+		<state id="1" name="[q1,q3]">
+			<x>300.0</x>
+			<y>180.0</y>
+			<label>Suffix is 0</label>
+		</state>
+		<state id="2" name="[q2,q4]">
+			<x>480.0</x>
+			<y>180.0</y>
+			<label>Suffix is 01 (Accepting)</label>
+			<final/>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>0</to>
+			<read>1</read>
+		</transition>
+	</automaton>
+</structure>

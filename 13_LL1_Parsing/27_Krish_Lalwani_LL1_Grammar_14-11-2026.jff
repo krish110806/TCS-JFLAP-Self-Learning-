@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure>
+	<type>grammar</type>
+	<!--Unambiguous LL(1) Arithmetic Expression Grammar.-->
+	<production>
+		<left>E</left>
+		<right>TA</right>
+	</production>
+	<production>
+		<left>A</left>
+		<right>+TA</right>
+	</production>
+	<production>
+		<left>A</left>
+		<right/>
+	</production>
+	<production>
+		<left>T</left>
+		<right>FB</right>
+	</production>
+	<production>
+		<left>B</left>
+		<right>*FB</right>
+	</production>
+	<production>
+		<left>B</left>
+		<right/>
+	</production>
+	<production>
+		<left>F</left>
+		<right>(E)</right>
+	</production>
+	<production>
+		<left>F</left>
+		<right>i</right>
+	</production>
+</structure>

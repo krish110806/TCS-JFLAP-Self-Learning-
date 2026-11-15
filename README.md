@@ -12,7 +12,7 @@
 
 ## 📌 Executive Summary
 
-This repository contains the complete practical portfolio for the **30-Hour JFLAP Self-Learning Assignment** in Theory of Computer Science. All 15 practical modules have been designed, simulated, and formally verified across the Chomsky Hierarchy—spanning **Finite Automata, Transducers (Mealy & Moore), Context-Free Grammars & Pushdown Automata, Parsing Algorithms (CYK & LL(1)), and Single/Multi-Tape Turing Machines**.
+This repository contains the complete practical portfolio for the **30-Hour JFLAP Self-Learning Assignment** in Theory of Computer Science. All 10 practical modules have been designed, simulated, and formally verified across the Chomsky Hierarchy—spanning **Finite Automata, Transducers (Mealy & Moore), Context-Free Grammars, and Pushdown Automata**.
 
 Every single `.jff` file strictly adheres to standard JFLAP XML specifications, and all files follow the institutional naming convention:
 `Roll_No._Name_Topic_DOP` $\implies$ `27_Krish_Lalwani_<Topic>_14-11-2026.jff`
@@ -33,11 +33,6 @@ Every single `.jff` file strictly adheres to standard JFLAP XML specifications, 
 | **08** | [`08_Moore_Machine`](./08_Moore_Machine/) | Moore Machine (Binary Stream Residue Modulo 3 Evaluator) | [`27_Krish_Lalwani_Moore_14-11-2026.jff`](./08_Moore_Machine/27_Krish_Lalwani_Moore_14-11-2026.jff) | Moore Transducer | **Validated & Verified** |
 | **09** | [`09_CFG`](./09_CFG/) | Context-Free Grammar ($L = \{ a^n b^{2n} \mid n \ge 1 \}$) | [`27_Krish_Lalwani_CFG_14-11-2026.jff`](./09_CFG/27_Krish_Lalwani_CFG_14-11-2026.jff) | Grammar (Type 2) | **Validated & Verified** |
 | **10** | [`10_PDA`](./10_PDA/) | Pushdown Automata ($L = \{ w c w^R \mid w \in \{a,b\}^* \}$) | [`27_Krish_Lalwani_PDA_14-11-2026.jff`](./10_PDA/27_Krish_Lalwani_PDA_14-11-2026.jff) | DPDA | **Validated & Verified** |
-| **11** | [`11_CNF_Conversion`](./11_CNF_Conversion/) | Chomsky Normal Form Conversion ($a^n b^n$) | [`27_Krish_Lalwani_CFG_Original_14-11-2026.jff`](./11_CNF_Conversion/27_Krish_Lalwani_CFG_Original_14-11-2026.jff), [`27_Krish_Lalwani_CNF_Converted_14-11-2026.jff`](./11_CNF_Conversion/27_Krish_Lalwani_CNF_Converted_14-11-2026.jff) | CNF Normalization | **Validated & Verified** |
-| **12** | [`12_CYK_Parsing`](./12_CYK_Parsing/) | Cocke-Younger-Kasami (CYK) Dynamic Programming Parsing | [`27_Krish_Lalwani_CYK_14-11-2026.jff`](./12_CYK_Parsing/27_Krish_Lalwani_CYK_14-11-2026.jff) | CYK Parser | **Validated & Verified** |
-| **13** | [`13_LL1_Parsing`](./13_LL1_Parsing/) | LL(1) Predictive Parsing for Arithmetic Expressions | [`27_Krish_Lalwani_LL1_Grammar_14-11-2026.jff`](./13_LL1_Parsing/27_Krish_Lalwani_LL1_Grammar_14-11-2026.jff) | LL(1) Parser | **Validated & Verified** |
-| **14** | [`14_Single_Tape_TM`](./14_Single_Tape_TM/) | Single-Tape Turing Machine (Binary Incrementer $w + 1$) | [`27_Krish_Lalwani_Single_Tape_TM_14-11-2026.jff`](./14_Single_Tape_TM/27_Krish_Lalwani_Single_Tape_TM_14-11-2026.jff) | Turing Machine | **Validated & Verified** |
-| **15** | [`15_Multi_Tape_TM`](./15_Multi_Tape_TM/) | 2-Tape Turing Machine (Binary String Duplication $w \to ww$) | [`27_Krish_Lalwani_Multi_Tape_TM_14-11-2026.jff`](./15_Multi_Tape_TM/27_Krish_Lalwani_Multi_Tape_TM_14-11-2026.jff) | Multi-Tape TM | **Validated & Verified** |
 
 ---
 
